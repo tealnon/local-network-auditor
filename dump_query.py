@@ -1,7 +1,7 @@
 import json
 import urllib.request
 
-target_ip = "192.168.1.89"
+target_ip = "USER INPUT TARGET IP"
 url = f"http://{target_ip}:8008/setup/eureka_info"
 
 print(f"[*] Querying local API on {target_ip}...")
